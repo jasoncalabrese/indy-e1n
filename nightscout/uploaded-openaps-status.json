@@ -1,42 +1,47 @@
 [
   {
-    "created_at": "2017-03-26T22:51:50.270Z", 
+    "created_at": "2017-03-26T22:57:28.757Z", 
     "mmtune": {
       "scanDetails": [
         [
+          "916.540", 
+          5, 
+          -79
+        ], 
+        [
           "916.564", 
-          5, 
-          -68
-        ], 
-        [
-          "916.588", 
-          5, 
-          -64
-        ], 
-        [
-          "916.612", 
           5, 
           -60
         ], 
         [
+          "916.588", 
+          5, 
+          -59
+        ], 
+        [
+          "916.612", 
+          5, 
+          -59
+        ], 
+        [
           "916.636", 
           5, 
-          -62
+          -58
         ], 
         [
           "916.660", 
           5, 
-          -62
+          -59
         ], 
         [
           "916.684", 
           5, 
-          -66
+          -63
         ]
       ], 
-      "setFreq": 916.612, 
+      "setFreq": 916.636, 
       "usedDefault": false, 
-      "timestamp": "2017-03-26T22:49:10.000Z"
+      "timestamp": "2017-03-26T22:55:06.000Z"
     }, 
     "pump": {
       "battery": {
@@ -45,123 +50,99 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-03-26T22:49:31.000Z", 
+        "timestamp": "2017-03-26T22:55:26.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 46.75, 
-      "clock": "2017-03-26T15:49:23-07:00"
+      "reservoir": 46.7, 
+      "clock": "2017-03-26T15:55:18-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 117, 
+        "bg": 114, 
         "temp": "absolute", 
-        "snoozeBG": 99, 
-        "timestamp": "2017-03-26T22:51:14.000Z", 
-        "rate": 0.6, 
-        "reason": "COB: 33, Dev: 58, BGI: -12.28, ISF: 94, Target: 100; 233-99 in range: no temp required; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
-        "COB": 33, 
-        "eventualBG": 233, 
-        "duration": 30, 
-        "tick": "+1", 
-        "IOB": 1.571
-      }, 
-      "iob": {
-        "netbasalinsulin": 0.25, 
-        "timestamp": "2017-03-26T22:49:23.000Z", 
-        "activity": 0.0261, 
-        "basaliob": 0.313, 
-        "hightempinsulin": 0.4, 
-        "bolussnooze": 0.331, 
-        "iob": 1.571
-      }, 
-      "enacted": {
-        "bg": 117, 
-        "temp": "absolute", 
-        "snoozeBG": 99, 
-        "recieved": true, 
+        "snoozeBG": 94, 
+        "timestamp": "2017-03-26T22:57:13.000Z", 
         "predBGs": {
           "COB": [
-            117, 
             114, 
-            112, 
-            109, 
-            107, 
+            111, 
+            108, 
             105, 
             103, 
-            101, 
             100, 
+            98, 
+            96, 
+            95, 
+            94, 
+            94, 
+            95, 
+            97, 
             99, 
-            99, 
-            99, 
-            100, 
-            102, 
-            105, 
-            108, 
-            112, 
-            117, 
-            121, 
-            126, 
-            130, 
-            135, 
-            139, 
-            144, 
-            149, 
-            154, 
-            159, 
-            164, 
-            170, 
-            175, 
-            180, 
-            185, 
-            190, 
-            195, 
+            103, 
+            106, 
+            110, 
+            114, 
+            119, 
+            123, 
+            127, 
+            132, 
+            136, 
+            141, 
+            146, 
+            151, 
+            156, 
+            161, 
+            166, 
+            172, 
+            177, 
+            182, 
+            187, 
+            191, 
+            196, 
             200, 
             205, 
             209, 
             213, 
-            218, 
-            222, 
-            226, 
-            229, 
-            233
+            217, 
+            221, 
+            225, 
+            228
           ], 
           "aCOB": [
-            117, 
-            115, 
+            114, 
             112, 
             110, 
             108, 
-            106, 
+            107, 
             105, 
+            104, 
             103, 
-            102, 
-            101, 
-            101, 
-            102, 
             103, 
+            103, 
+            104, 
             105, 
             108, 
-            112, 
-            116, 
-            120, 
-            125, 
-            130, 
-            134, 
-            139, 
-            144, 
-            149, 
-            154, 
-            159, 
-            164, 
-            169, 
-            174, 
-            180, 
-            185, 
-            190, 
-            195, 
-            200, 
-            205, 
+            111, 
+            114, 
+            119, 
+            123, 
+            128, 
+            133, 
+            138, 
+            142, 
+            147, 
+            152, 
+            157, 
+            162, 
+            168, 
+            173, 
+            178, 
+            184, 
+            189, 
+            194, 
+            199, 
+            204, 
             209, 
             214, 
             218, 
@@ -169,26 +150,49 @@
             226, 
             230, 
             234, 
-            237
+            238, 
+            241, 
+            244
           ], 
           "IOB": [
-            117, 
             114, 
             110, 
-            105, 
-            100, 
-            95, 
-            89, 
-            83, 
-            76, 
-            69, 
-            62, 
+            106, 
+            101, 
+            96, 
+            91, 
+            85, 
+            79, 
+            73, 
+            67, 
+            61, 
             55, 
             49, 
-            43, 
+            44, 
+            40, 
             39
           ]
         }, 
+        "reason": "COB: 32, Dev: 53, BGI: -11.9, ISF: 94, Target: 100; 228-94 in range: no temp required; setting current basal of 0.6 as temp, but 26m left and 0.575 ~ req 0.6U/hr: no action required", 
+        "COB": 32, 
+        "eventualBG": 228, 
+        "tick": -3, 
+        "IOB": 1.421
+      }, 
+      "iob": {
+        "netbasalinsulin": 0.3, 
+        "timestamp": "2017-03-26T22:55:18.000Z", 
+        "activity": 0.0253, 
+        "basaliob": 0.299, 
+        "hightempinsulin": 0.4, 
+        "bolussnooze": 0.259, 
+        "iob": 1.421
+      }, 
+      "enacted": {
+        "bg": 117, 
+        "temp": "absolute", 
+        "snoozeBG": 99, 
+        "recieved": true, 
         "reason": "COB: 33, Dev: 58, BGI: -12.28, ISF: 94, Target: 100; 233-99 in range: no temp required; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
         "rate": 0.575, 
         "COB": 33, 
@@ -200,10 +204,10 @@
       }
     }, 
     "uploader": {
-      "battery": 88, 
-      "batteryVoltage": 4061
+      "battery": 87, 
+      "batteryVoltage": 4052
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "58d84606b7d2820be8c49a26"
+    "_id": "58d84758b7d2820be8c49a27"
   }
 ]
