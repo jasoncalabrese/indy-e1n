@@ -1,22 +1,47 @@
 [
   {
-    "created_at": "2017-03-26T08:52:02.629Z", 
+    "created_at": "2017-03-26T08:57:39.781Z", 
     "mmtune": {
       "scanDetails": [
         [
+          "916.564", 
+          2, 
+          -94
+        ], 
+        [
+          "916.588", 
+          5, 
+          -81
+        ], 
+        [
+          "916.612", 
+          4, 
+          -84
+        ], 
+        [
+          "916.636", 
+          5, 
+          -80
+        ], 
+        [
           "916.660", 
-          1, 
-          -96
+          4, 
+          -84
         ], 
         [
           "916.684", 
-          3, 
-          -89
+          4, 
+          -85
+        ], 
+        [
+          "916.708", 
+          2, 
+          -95
         ]
       ], 
-      "setFreq": 916.684, 
+      "setFreq": 916.636, 
       "usedDefault": false, 
-      "timestamp": "2017-03-26T08:49:32.000Z"
+      "timestamp": "2017-03-26T08:54:13.000Z"
     }, 
     "pump": {
       "battery": {
@@ -25,72 +50,74 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-03-26T08:49:53.000Z", 
+        "timestamp": "2017-03-26T08:55:11.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 62.375, 
-      "clock": "2017-03-26T01:49:44-07:00"
+      "reservoir": 62.275, 
+      "clock": "2017-03-26T01:54:25-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 200, 
+        "bg": 201, 
         "temp": "absolute", 
-        "snoozeBG": 114, 
-        "timestamp": "2017-03-26T08:51:46.000Z", 
+        "snoozeBG": 131, 
+        "timestamp": "2017-03-26T08:57:24.000Z", 
         "predBGs": {
           "IOB": [
-            200, 
+            201, 
+            198, 
             195, 
-            189, 
-            184, 
-            178, 
-            172, 
-            166, 
-            161, 
-            155, 
+            191, 
+            187, 
+            183, 
+            179, 
+            174, 
+            169, 
+            164, 
+            159, 
+            153, 
             148, 
-            142, 
-            136, 
-            130, 
+            143, 
+            138, 
+            133, 
+            129, 
             125, 
-            120, 
-            115, 
-            110, 
+            122, 
+            119, 
+            116, 
+            114, 
+            112, 
+            111, 
+            109, 
+            108, 
+            107, 
             106, 
-            102, 
-            99, 
-            96, 
-            93, 
-            91, 
-            90, 
-            88, 
-            87, 
-            86, 
-            85, 
-            84, 
-            83, 
-            83, 
-            82, 
-            82, 
-            82, 
-            81
+            106, 
+            105, 
+            105, 
+            105, 
+            104, 
+            104, 
+            104, 
+            104, 
+            103
           ]
         }, 
-        "reason": "COB: 0, Dev: 19, BGI: -8.15, ISF: 90, Target: 98; Eventual BG 108 >= 98, temp 1.125 >~ req 1.15U/hr", 
+        "reason": "COB: 0, Dev: 34, BGI: -8.29, ISF: 90, Target: 98; Eventual BG 128 >= 98, temp 1.6 >~ req 1.55U/hr", 
         "COB": 0, 
-        "eventualBG": 108, 
-        "tick": -5, 
-        "IOB": 1.236
+        "eventualBG": 128, 
+        "tick": "+1", 
+        "IOB": 1.199
       }, 
       "iob": {
-        "netbasalinsulin": 2.5, 
-        "timestamp": "2017-03-26T08:49:44.000Z", 
-        "activity": 0.0182, 
-        "basaliob": 0.87, 
-        "hightempinsulin": 2.65, 
-        "bolussnooze": 0.043, 
-        "iob": 1.236
+        "netbasalinsulin": 2.4, 
+        "timestamp": "2017-03-26T08:54:25.000Z", 
+        "activity": 0.0185, 
+        "basaliob": 0.865, 
+        "hightempinsulin": 2.55, 
+        "bolussnooze": 0.024, 
+        "iob": 1.199
       }, 
       "enacted": {
         "requested": {
@@ -114,9 +141,9 @@
     }, 
     "uploader": {
       "battery": 100, 
-      "batteryVoltage": 4378
+      "batteryVoltage": 4377
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "58d78132b7d2820be8c49918"
+    "_id": "58d78283b7d2820be8c4991a"
   }
 ]
