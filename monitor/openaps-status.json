@@ -7,72 +7,191 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-03-29T04:35:15.000Z", 
+      "timestamp": "2017-03-29T04:42:57.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 76.7, 
-    "clock": "2017-03-28T21:35:05-07:00"
+    "reservoir": 76.55, 
+    "clock": "2017-03-28T21:42:45-07:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4376
+    "batteryVoltage": 4369
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2017-03-29T04:37:02.000Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Tue Mar 28 2017 21:25:10 GMT-0700 (PDT) but your system time is Tue Mar 28 2017 21:37:02 GMT-0700 (PDT)"
+      "bg": 69, 
+      "temp": "absolute", 
+      "snoozeBG": 20, 
+      "timestamp": "2017-03-29T04:44:43.000Z", 
+      "predBGs": {
+        "COB": [
+          69, 
+          65, 
+          60, 
+          54, 
+          48, 
+          42, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          43, 
+          48, 
+          53, 
+          59, 
+          64, 
+          70, 
+          75, 
+          80, 
+          85, 
+          89, 
+          94, 
+          98, 
+          102, 
+          106, 
+          110, 
+          113, 
+          116, 
+          120, 
+          123, 
+          126, 
+          129
+        ], 
+        "aCOB": [
+          69, 
+          71, 
+          71, 
+          71, 
+          71, 
+          70, 
+          70, 
+          71, 
+          72, 
+          74, 
+          76, 
+          79, 
+          82, 
+          86, 
+          91, 
+          96, 
+          101, 
+          107, 
+          114, 
+          121, 
+          128, 
+          135, 
+          143, 
+          151, 
+          159, 
+          168, 
+          176, 
+          184, 
+          192, 
+          199, 
+          206, 
+          213, 
+          219, 
+          225, 
+          231, 
+          236, 
+          242, 
+          246, 
+          251, 
+          255, 
+          259, 
+          263, 
+          267
+        ], 
+        "IOB": [
+          69, 
+          64, 
+          59, 
+          52, 
+          45, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39
+        ]
+      }, 
+      "reason": "COB: 35, Dev: 13, BGI: -8.17, ISF: 91, Target: 98; BG 69<74, but 28m left and 0 ~ req 0U/hr: no action required", 
+      "COB": 35, 
+      "eventualBG": 129, 
+      "tick": -6, 
+      "IOB": 1.458
     }, 
     "iob": {
-      "netbasalinsulin": 0.1, 
-      "timestamp": "2017-03-29T04:35:05.000Z", 
-      "activity": 0.0156, 
-      "basaliob": -0.082, 
-      "hightempinsulin": 0.45, 
-      "bolussnooze": 0.677, 
-      "iob": 1.692
+      "netbasalinsulin": 0, 
+      "timestamp": "2017-03-29T04:42:45.000Z", 
+      "activity": 0.0179, 
+      "basaliob": -0.169, 
+      "hightempinsulin": 0.4, 
+      "bolussnooze": 0.43, 
+      "iob": 1.458
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
-        "916.564", 
+        "916.540", 
         5, 
         -84
       ], 
       [
+        "916.564", 
+        5, 
+        -76
+      ], 
+      [
         "916.588", 
         5, 
-        -85
+        -75
       ], 
       [
         "916.612", 
         5, 
-        -83
+        -73
       ], 
       [
         "916.636", 
         5, 
-        -82
+        -73
       ], 
       [
         "916.660", 
         5, 
-        -79
+        -74
       ], 
       [
         "916.684", 
         5, 
-        -80
+        -77
       ], 
       [
         "916.708", 
-        2, 
-        -94
+        1, 
+        -97
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2017-03-29T04:34:49.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2017-03-29T04:42:31.000Z", 
     "usedDefault": false
   }
 }
