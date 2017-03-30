@@ -1,6 +1,6 @@
 [
   {
-    "created_at": "2017-03-30T11:47:54.739Z", 
+    "created_at": "2017-03-30T12:00:34.471Z", 
     "mmtune": {
       "scanDetails": [
         [
@@ -21,12 +21,12 @@
         [
           "916.636", 
           5, 
-          -87
+          -86
         ], 
         [
           "916.660", 
           5, 
-          -87
+          -88
         ], 
         [
           "916.684", 
@@ -34,9 +34,9 @@
           -90
         ]
       ], 
-      "setFreq": 916.612, 
+      "setFreq": 916.636, 
       "usedDefault": false, 
-      "timestamp": "2017-03-30T11:45:32.000Z"
+      "timestamp": "2017-03-30T11:57:40.000Z"
     }, 
     "pump": {
       "battery": {
@@ -45,91 +45,91 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-03-30T11:45:52.000Z", 
+        "timestamp": "2017-03-30T11:58:01.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 109.85, 
-      "clock": "2017-03-30T04:45:45-07:00"
+      "reservoir": 109.7, 
+      "clock": "2017-03-30T04:57:53-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 117, 
+        "bg": 114, 
         "temp": "absolute", 
-        "snoozeBG": 106, 
-        "timestamp": "2017-03-30T11:47:39.000Z", 
-        "predBGs": {
-          "IOB": [
-            117, 
-            118, 
-            120, 
-            121, 
-            122, 
-            122, 
-            122, 
-            122, 
-            122, 
-            122, 
-            121, 
-            120, 
-            118, 
-            117, 
-            116, 
-            114, 
-            113, 
-            112, 
-            110, 
-            109, 
-            108, 
-            107, 
-            106, 
-            105, 
-            104, 
-            103, 
-            103, 
-            102, 
-            102, 
-            101, 
-            101, 
-            101, 
-            100
-          ]
-        }, 
-        "reason": "COB: 0, Dev: 9, BGI: 0.17, ISF: 86, Target: 96; Eventual BG 106 >= 96, temp 0.8<0.9U/hr, but 22m left and 0.8 ~ req 0.9U/hr: no action required", 
+        "snoozeBG": 84, 
+        "timestamp": "2017-03-30T11:59:49.000Z", 
+        "rate": 0.1, 
+        "reason": "COB: 0, Dev: -5, BGI: -0.09, ISF: 86, Target: 96; Eventual BG 84 < 96, setting 0.1U/hr", 
         "COB": 0, 
-        "eventualBG": 106, 
-        "tick": "+2", 
-        "IOB": 0.235
+        "eventualBG": 84, 
+        "duration": 30, 
+        "tick": -1, 
+        "IOB": 0.285
       }, 
       "iob": {
         "netbasalinsulin": 0.45, 
-        "timestamp": "2017-03-30T11:45:45.000Z", 
-        "activity": -0.0004, 
-        "basaliob": 0.235, 
+        "timestamp": "2017-03-30T11:57:53.000Z", 
+        "activity": 0.0002, 
+        "basaliob": 0.285, 
         "hightempinsulin": 0.8, 
         "bolussnooze": 0, 
-        "iob": 0.235
+        "iob": 0.285
       }, 
       "enacted": {
         "bg": 114, 
         "temp": "absolute", 
-        "snoozeBG": 103, 
+        "snoozeBG": 84, 
         "recieved": true, 
-        "reason": "COB: 0, Dev: 4, BGI: 0.35, ISF: 86, Target: 96; Eventual BG 103 >= 96, 16m@0.600 = 0.160 > req 0.08+20%. Setting temp basal of 0.8U/hr", 
-        "rate": 1.25, 
+        "predBGs": {
+          "IOB": [
+            114, 
+            113, 
+            112, 
+            111, 
+            110, 
+            109, 
+            108, 
+            106, 
+            105, 
+            103, 
+            102, 
+            101, 
+            99, 
+            98, 
+            96, 
+            95, 
+            94, 
+            92, 
+            91, 
+            90, 
+            89, 
+            88, 
+            88, 
+            87, 
+            86, 
+            86, 
+            85, 
+            85, 
+            85, 
+            85, 
+            84
+          ]
+        }, 
+        "reason": "COB: 0, Dev: -5, BGI: -0.09, ISF: 86, Target: 96; Eventual BG 84 < 96, setting 0.1U/hr", 
+        "rate": 0.1, 
         "COB": 0, 
-        "eventualBG": 103, 
-        "timestamp": "2017-03-30T11:35:22.000Z", 
-        "duration": 14, 
-        "tick": "+1", 
-        "IOB": 0.177
+        "eventualBG": 84, 
+        "timestamp": "2017-03-30T12:00:19.000Z", 
+        "duration": 30, 
+        "tick": -1, 
+        "IOB": 0.285
       }
     }, 
     "uploader": {
       "battery": 100, 
-      "batteryVoltage": 4367
+      "batteryVoltage": 4371
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "58dcf06ac402f060d03610f4"
+    "_id": "58dcf362c402f060d03610f8"
   }
 ]
