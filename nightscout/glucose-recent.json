@@ -1,5 +1,22 @@
 [
   {
+    "trend_arrow": "SINGLE_DOWN", 
+    "display_time": "2017-03-31T14:25:47-07:00", 
+    "noise": 1, 
+    "system_time": "2017-03-31T21:24:47-07:00", 
+    "direction": "SingleDown", 
+    "sgv": 112, 
+    "dateString": "2017-03-31T14:25:47-07:00", 
+    "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 118096, 
+    "rssi": 181, 
+    "date": 1490995547000, 
+    "filtered": 133056, 
+    "_id": "58dec9aa65110bbfc195f76b", 
+    "type": "sgv", 
+    "glucose": 112
+  }, 
+  {
     "trend_arrow": "45_DOWN", 
     "display_time": "2017-03-31T14:20:48-07:00", 
     "noise": 1, 
@@ -7,11 +24,11 @@
     "direction": "FortyFiveDown", 
     "sgv": 123, 
     "dateString": "2017-03-31T14:20:48-07:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 126864, 
-    "rssi": 178, 
     "date": 1490995248000, 
+    "unfiltered": 126864, 
     "filtered": 139264, 
+    "device": "openaps://indy-e1/cgm", 
+    "rssi": 178, 
     "_id": "58dec86665110bbfc195f76a", 
     "type": "sgv", 
     "glucose": 123
@@ -24,11 +41,11 @@
     "direction": "Flat", 
     "sgv": 136, 
     "dateString": "2017-03-31T14:15:47-07:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 136800, 
-    "rssi": 161, 
     "date": 1490994947000, 
+    "unfiltered": 136800, 
     "filtered": 142336, 
+    "device": "openaps://indy-e1/cgm", 
+    "rssi": 161, 
     "_id": "58dec79b65110bbfc195f768", 
     "type": "sgv", 
     "glucose": 136
@@ -1205,22 +1222,5 @@
     "_id": "58de766965110bbfc195f703", 
     "type": "sgv", 
     "glucose": 150
-  }, 
-  {
-    "trend_arrow": "45_UP", 
-    "display_time": "2017-03-31T08:25:48-07:00", 
-    "noise": 1, 
-    "system_time": "2017-03-31T15:24:48-07:00", 
-    "direction": "FortyFiveUp", 
-    "sgv": 149, 
-    "dateString": "2017-03-31T08:25:48-07:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 143968, 
-    "rssi": 169, 
-    "date": 1490973948000, 
-    "filtered": 138464, 
-    "_id": "58de759665110bbfc195f702", 
-    "type": "sgv", 
-    "glucose": 149
   }
 ]
