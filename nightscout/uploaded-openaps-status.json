@@ -1,42 +1,47 @@
 [
   {
-    "created_at": "2017-03-31T22:53:46.125Z", 
+    "created_at": "2017-03-31T22:57:14.497Z", 
     "mmtune": {
       "scanDetails": [
         [
+          "916.540", 
+          2, 
+          -89
+        ], 
+        [
           "916.564", 
           5, 
-          -51
+          -64
         ], 
         [
           "916.588", 
           5, 
-          -49
+          -67
         ], 
         [
           "916.612", 
           5, 
-          -48
+          -66
         ], 
         [
           "916.636", 
           5, 
-          -48
+          -61
         ], 
         [
           "916.660", 
           5, 
-          -49
+          -61
         ], 
         [
           "916.684", 
           5, 
-          -51
+          -61
         ]
       ], 
-      "setFreq": 916.636, 
+      "setFreq": 916.684, 
       "usedDefault": false, 
-      "timestamp": "2017-03-31T22:51:40.000Z"
+      "timestamp": "2017-03-31T22:54:52.000Z"
     }, 
     "pump": {
       "battery": {
@@ -45,153 +50,26 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-03-31T22:52:01.000Z", 
+        "timestamp": "2017-03-31T22:55:17.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 67.925, 
-      "clock": "2017-03-31T15:51:54-07:00"
+      "reservoir": 67.9, 
+      "clock": "2017-03-31T15:55:10-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 76, 
-        "temp": "absolute", 
-        "snoozeBG": 103, 
-        "timestamp": "2017-03-31T22:53:30.000Z", 
-        "predBGs": {
-          "COB": [
-            76, 
-            78, 
-            80, 
-            82, 
-            85, 
-            88, 
-            91, 
-            95, 
-            99, 
-            103, 
-            107, 
-            111, 
-            116, 
-            120, 
-            125, 
-            129, 
-            133, 
-            138, 
-            142, 
-            146, 
-            150, 
-            154, 
-            158, 
-            162, 
-            166, 
-            169, 
-            173, 
-            176, 
-            180, 
-            183, 
-            187, 
-            190, 
-            193, 
-            196, 
-            199, 
-            203, 
-            206, 
-            209, 
-            212, 
-            215, 
-            218, 
-            221, 
-            225
-          ], 
-          "aCOB": [
-            76, 
-            83, 
-            91, 
-            99, 
-            107, 
-            116, 
-            124, 
-            133, 
-            142, 
-            151, 
-            160, 
-            170, 
-            178, 
-            187, 
-            196, 
-            205, 
-            213, 
-            222, 
-            230, 
-            238, 
-            245, 
-            253, 
-            260, 
-            267, 
-            274, 
-            281, 
-            288, 
-            294, 
-            300, 
-            306, 
-            312, 
-            317, 
-            323, 
-            328, 
-            333, 
-            338, 
-            343, 
-            348, 
-            353, 
-            357, 
-            362, 
-            366, 
-            370
-          ], 
-          "IOB": [
-            76, 
-            77, 
-            79, 
-            80, 
-            81, 
-            83, 
-            84, 
-            86, 
-            87, 
-            89, 
-            90, 
-            91, 
-            91, 
-            92, 
-            93, 
-            94, 
-            94, 
-            95, 
-            96, 
-            96, 
-            97, 
-            97, 
-            98, 
-            98, 
-            98, 
-            99
-          ]
-        }, 
-        "reason": "COB: 36, Dev: 14, BGI: -2.37, ISF: 95, Target: 100; Eventual BG 225 >= 100, temp 0.575<0.65U/hr, but 27m left and 0.575 ~ req 0.65U/hr: no action required", 
-        "COB": 36, 
-        "eventualBG": 225, 
-        "tick": "+0", 
-        "IOB": -0.034
+        "timestamp": "2017-03-31T22:56:58.000Z", 
+        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Fri Mar 31 2017 15:45:48 GMT-0700 (PDT) but your system time is Fri Mar 31 2017 15:56:58 GMT-0700 (PDT)"
       }, 
       "iob": {
         "netbasalinsulin": 0.95, 
-        "timestamp": "2017-03-31T22:51:54.000Z", 
-        "activity": 0.005, 
-        "basaliob": -0.034, 
+        "timestamp": "2017-03-31T22:55:10.000Z", 
+        "activity": 0.0045, 
+        "basaliob": -0.048, 
         "hightempinsulin": 1.25, 
         "bolussnooze": 0, 
-        "iob": -0.034
+        "iob": -0.048
       }, 
       "enacted": {
         "bg": 76, 
@@ -209,10 +87,10 @@
       }
     }, 
     "uploader": {
-      "battery": 54, 
-      "batteryVoltage": 3717
+      "battery": 52, 
+      "batteryVoltage": 3703
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "58deddfaee79334f6e8d1d48"
+    "_id": "58dedecaee79334f6e8d1d49"
   }
 ]
