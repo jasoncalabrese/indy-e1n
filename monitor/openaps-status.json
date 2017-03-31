@@ -7,86 +7,212 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-03-31T22:55:17.000Z", 
+      "timestamp": "2017-03-31T23:02:06.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 67.9, 
-    "clock": "2017-03-31T15:55:10-07:00"
+    "reservoir": 67.85, 
+    "clock": "2017-03-31T16:01:59-07:00"
   }, 
   "uploader": {
-    "battery": 52, 
-    "batteryVoltage": 3703
+    "battery": 54, 
+    "batteryVoltage": 3716
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2017-03-31T22:56:58.000Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Fri Mar 31 2017 15:45:48 GMT-0700 (PDT) but your system time is Fri Mar 31 2017 15:56:58 GMT-0700 (PDT)"
+      "bg": 72, 
+      "temp": "absolute", 
+      "snoozeBG": 104, 
+      "timestamp": "2017-03-31T23:03:55.000Z", 
+      "reason": "COB: 35, Dev: 3, BGI: -1.6, ISF: 94, Target: 100; BG 72<75", 
+      "rate": 0, 
+      "COB": 35, 
+      "eventualBG": 224, 
+      "duration": 30, 
+      "tick": "+0", 
+      "IOB": -0.072
     }, 
     "iob": {
       "netbasalinsulin": 0.95, 
-      "timestamp": "2017-03-31T22:55:10.000Z", 
-      "activity": 0.0045, 
-      "basaliob": -0.048, 
+      "timestamp": "2017-03-31T23:01:59.000Z", 
+      "activity": 0.0034, 
+      "basaliob": -0.072, 
       "hightempinsulin": 1.25, 
       "bolussnooze": 0, 
-      "iob": -0.048
+      "iob": -0.072
     }, 
     "enacted": {
-      "bg": 76, 
+      "bg": 72, 
       "temp": "absolute", 
-      "snoozeBG": 99, 
+      "snoozeBG": 104, 
       "recieved": true, 
-      "rate": 0.575, 
-      "reason": "COB: 37, Dev: 23, BGI: -2.85, ISF: 95, Target: 100; 193-99 in range: no temp required; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
-      "COB": 37, 
-      "eventualBG": 193, 
-      "timestamp": "2017-03-31T22:48:25.000Z", 
+      "predBGs": {
+        "COB": [
+          72, 
+          74, 
+          77, 
+          80, 
+          84, 
+          87, 
+          91, 
+          95, 
+          100, 
+          104, 
+          108, 
+          113, 
+          117, 
+          122, 
+          126, 
+          131, 
+          135, 
+          139, 
+          143, 
+          147, 
+          151, 
+          155, 
+          159, 
+          163, 
+          166, 
+          170, 
+          173, 
+          176, 
+          180, 
+          183, 
+          186, 
+          189, 
+          193, 
+          196, 
+          199, 
+          202, 
+          206, 
+          209, 
+          212, 
+          215, 
+          218, 
+          221, 
+          224
+        ], 
+        "aCOB": [
+          72, 
+          80, 
+          89, 
+          97, 
+          106, 
+          115, 
+          125, 
+          134, 
+          143, 
+          153, 
+          162, 
+          171, 
+          180, 
+          189, 
+          197, 
+          206, 
+          214, 
+          222, 
+          230, 
+          238, 
+          246, 
+          253, 
+          260, 
+          267, 
+          273, 
+          280, 
+          286, 
+          292, 
+          298, 
+          304, 
+          309, 
+          315, 
+          320, 
+          325, 
+          330, 
+          335, 
+          340, 
+          345, 
+          349, 
+          353, 
+          358, 
+          362, 
+          365
+        ], 
+        "IOB": [
+          72, 
+          74, 
+          76, 
+          78, 
+          80, 
+          83, 
+          85, 
+          87, 
+          89, 
+          90, 
+          91, 
+          92, 
+          93, 
+          94, 
+          95, 
+          95, 
+          96, 
+          97, 
+          97, 
+          98, 
+          98, 
+          98, 
+          99
+        ]
+      }, 
+      "rate": 0, 
+      "reason": "COB: 35, Dev: 3, BGI: -1.6, ISF: 94, Target: 100; BG 72<75", 
+      "COB": 35, 
+      "eventualBG": 224, 
+      "timestamp": "2017-03-31T23:04:15.000Z", 
       "duration": 30, 
-      "tick": "+1", 
-      "IOB": -0.004
+      "tick": "+0", 
+      "IOB": -0.072
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
         "916.540", 
-        2, 
-        -89
+        1, 
+        -92
       ], 
       [
         "916.564", 
         5, 
-        -64
+        -52
       ], 
       [
         "916.588", 
         5, 
-        -67
+        -50
       ], 
       [
         "916.612", 
-        5, 
-        -66
+        4, 
+        -60
       ], 
       [
         "916.636", 
         5, 
-        -61
+        -51
       ], 
       [
         "916.660", 
         5, 
-        -61
+        -54
       ], 
       [
         "916.684", 
         5, 
-        -61
+        -59
       ]
     ], 
-    "setFreq": 916.684, 
-    "timestamp": "2017-03-31T22:54:52.000Z", 
+    "setFreq": 916.588, 
+    "timestamp": "2017-03-31T23:01:45.000Z", 
     "usedDefault": false
   }
 }
