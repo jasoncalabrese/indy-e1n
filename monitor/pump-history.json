@@ -1,5 +1,63 @@
 [
   {
+    "programmed": 3.0, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2017-03-31T20:54:53 head[8], body[0] op[0x01]", 
+    "timestamp": "2017-03-31T20:54:53", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[14], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.3, 
+            "age": 18
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 48
+          }, 
+          {
+            "amount": 0.575, 
+            "age": 168
+          }, 
+          {
+            "amount": 0.025, 
+            "age": 178
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0e0c12c00c30c017a8c001b2c0", 
+        "_date": ""
+      }
+    ], 
+    "_head": "0100780078001800", 
+    "amount": 3.0, 
+    "unabsorbed": 0.6, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "35f6341f11"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 180, 
+    "_description": "BolusWizard 2017-03-31T20:54:53 head[2], body[15] op[0x5b]", 
+    "timestamp": "2017-03-31T20:54:53", 
+    "_body": "505000a05f640000c800000000c8b4", 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "_date": "35f6141f11", 
+    "bolus_estimate": 5.0, 
+    "bg_target_low": 100, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 5.0, 
+    "carb_input": 80, 
+    "sensitivity": 95
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2017-03-31T20:43:38 head[2], body[0] op[0x16]", 
@@ -721,16 +779,5 @@
     "_head": "0a3a", 
     "amount": 58, 
     "_date": "05c02f7f11"
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "offset": 50400000, 
-    "_description": "BasalProfileStart 2017-03-31T14:46:48 head[2], body[3] op[0x7b]", 
-    "timestamp": "2017-03-31T14:46:48", 
-    "_body": "1c1800", 
-    "profile_index": 6, 
-    "_head": "7b06", 
-    "rate": 0.6, 
-    "_date": "30ee0e1f11"
   }
 ]
