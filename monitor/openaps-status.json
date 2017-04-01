@@ -7,87 +7,86 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-04-01T03:16:16.000Z", 
+      "timestamp": "2017-04-01T03:22:26.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 64.7, 
-    "clock": "2017-03-31T20:16:10-07:00"
+    "reservoir": 64.5, 
+    "clock": "2017-03-31T20:22:20-07:00"
   }, 
   "uploader": {
-    "battery": 59, 
-    "batteryVoltage": 3767
+    "battery": 58, 
+    "batteryVoltage": 3764
   }, 
   "openaps": {
     "suggested": {
-      "bg": 92, 
+      "bg": 105, 
       "temp": "absolute", 
-      "snoozeBG": 195, 
-      "timestamp": "2017-04-01T03:18:06.000Z", 
-      "reason": "COB: 0, Dev: 44, BGI: -1.04, ISF: 94, Target: 80; Eventual BG 153 >= 80, temp 1.6<2.45U/hr", 
-      "rate": 2.45, 
+      "snoozeBG": 210, 
+      "timestamp": "2017-04-01T03:24:24.000Z", 
+      "predBGs": {
+        "IOB": [
+          105, 
+          113, 
+          121, 
+          128, 
+          134, 
+          140, 
+          145, 
+          150, 
+          153, 
+          156, 
+          158, 
+          158, 
+          157, 
+          156, 
+          154, 
+          152, 
+          150, 
+          147, 
+          144, 
+          141, 
+          138, 
+          135, 
+          132, 
+          129, 
+          126, 
+          123, 
+          120, 
+          118, 
+          115, 
+          113, 
+          111, 
+          109, 
+          108, 
+          106, 
+          105, 
+          105, 
+          104, 
+          104, 
+          103
+        ]
+      }, 
+      "reason": "COB: 0, Dev: 56, BGI: -0.52, ISF: 94, Target: 80; Eventual BG 169 >= 80, temp 2.35<2.8U/hr, but 27m left and 2.35 ~ req 2.8U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 153, 
-      "duration": 30, 
+      "eventualBG": 169, 
       "tick": "+13", 
-      "IOB": -0.178
+      "IOB": -0.085
     }, 
     "iob": {
-      "netbasalinsulin": -0.35, 
-      "timestamp": "2017-04-01T03:16:10.000Z", 
-      "activity": 0.0022, 
-      "basaliob": -0.548, 
-      "hightempinsulin": 0.9, 
-      "bolussnooze": 0.297, 
-      "iob": -0.178
+      "netbasalinsulin": -0.25, 
+      "timestamp": "2017-04-01T03:22:20.000Z", 
+      "activity": 0.0011, 
+      "basaliob": -0.435, 
+      "hightempinsulin": 1, 
+      "bolussnooze": 0.288, 
+      "iob": -0.085
     }, 
     "enacted": {
       "bg": 92, 
       "temp": "absolute", 
       "snoozeBG": 195, 
       "recieved": true, 
-      "predBGs": {
-        "IOB": [
-          92, 
-          98, 
-          103, 
-          108, 
-          113, 
-          118, 
-          122, 
-          126, 
-          129, 
-          132, 
-          135, 
-          137, 
-          138, 
-          138, 
-          139, 
-          139, 
-          139, 
-          139, 
-          138, 
-          138, 
-          137, 
-          136, 
-          136, 
-          135, 
-          134, 
-          133, 
-          132, 
-          131, 
-          130, 
-          129, 
-          128, 
-          127, 
-          126, 
-          126, 
-          125, 
-          125, 
-          125, 
-          124
-        ]
-      }, 
       "rate": 2.45, 
       "reason": "COB: 0, Dev: 44, BGI: -1.04, ISF: 94, Target: 80; Eventual BG 153 >= 80, temp 1.6<2.45U/hr", 
       "COB": 0, 
@@ -103,41 +102,41 @@
       [
         "916.540", 
         5, 
-        -53
+        -49
       ], 
       [
         "916.564", 
         5, 
-        -44
+        -47
       ], 
       [
         "916.588", 
         5, 
-        -43
+        -45
       ], 
       [
         "916.612", 
         5, 
-        -42
+        -46
       ], 
       [
         "916.636", 
         5, 
-        -42
+        -46
       ], 
       [
         "916.660", 
         5, 
-        -43
+        -48
       ], 
       [
         "916.684", 
         5, 
-        -47
+        -51
       ]
     ], 
-    "setFreq": 916.636, 
-    "timestamp": "2017-04-01T03:15:52.000Z", 
+    "setFreq": 916.588, 
+    "timestamp": "2017-04-01T03:22:06.000Z", 
     "usedDefault": false
   }
 }
