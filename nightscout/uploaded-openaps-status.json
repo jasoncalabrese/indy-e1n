@@ -1,6 +1,6 @@
 [
   {
-    "created_at": "2017-04-03T13:10:27.714Z", 
+    "created_at": "2017-04-03T13:16:56.289Z", 
     "mmtune": {
       "scanDetails": [
         [
@@ -32,11 +32,16 @@
           "916.684", 
           5, 
           -78
+        ], 
+        [
+          "916.708", 
+          1, 
+          -97
         ]
       ], 
       "setFreq": 916.636, 
       "usedDefault": false, 
-      "timestamp": "2017-04-03T13:07:52.000Z"
+      "timestamp": "2017-04-03T13:13:57.000Z"
     }, 
     "pump": {
       "battery": {
@@ -45,71 +50,75 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-04-03T13:08:28.000Z", 
+        "timestamp": "2017-04-03T13:14:29.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 97.125, 
-      "clock": "2017-04-03T06:08:10-07:00"
+      "reservoir": 97.075, 
+      "clock": "2017-04-03T06:14:16-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 108, 
+        "bg": 107, 
         "temp": "absolute", 
-        "snoozeBG": 100, 
-        "timestamp": "2017-04-03T13:10:12.000Z", 
+        "snoozeBG": 102, 
+        "timestamp": "2017-04-03T13:16:19.000Z", 
+        "rate": 0.6, 
+        "reason": "COB: 0, Dev: -4, BGI: -0.9, ISF: 95, Target: 100; Eventual BG 102 > 100 but Min. Delta -1.65 < Exp. Delta -1; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
+        "COB": 0, 
+        "eventualBG": 102, 
+        "duration": 30, 
+        "tick": -1, 
+        "IOB": 0.015
+      }, 
+      "iob": {
+        "netbasalinsulin": 0.65, 
+        "timestamp": "2017-04-03T13:14:16.000Z", 
+        "activity": 0.0019, 
+        "basaliob": 0.015, 
+        "hightempinsulin": 0.7, 
+        "bolussnooze": 0, 
+        "iob": 0.015
+      }, 
+      "enacted": {
+        "bg": 107, 
+        "temp": "absolute", 
+        "snoozeBG": 102, 
+        "recieved": true, 
         "predBGs": {
           "IOB": [
-            108, 
-            106, 
+            107, 
+            105, 
             104, 
             103, 
             102, 
             101, 
+            101, 
             100, 
-            99, 
-            99, 
-            99, 
-            98, 
-            98, 
-            99
+            100, 
+            100, 
+            100, 
+            100, 
+            100, 
+            100, 
+            101
           ]
         }, 
-        "reason": "COB: 0, Dev: -5, BGI: -1.14, ISF: 95, Target: 100; Eventual BG 100 > 100 but Min. Delta -2.00 < Exp. Delta -1.1; setting current basal of 0.6 as temp, but 26m left and 0.575 ~ req 0.6U/hr: no action required", 
-        "COB": 0, 
-        "eventualBG": 100, 
-        "tick": -2, 
-        "IOB": 0.027
-      }, 
-      "iob": {
-        "netbasalinsulin": 0.65, 
-        "timestamp": "2017-04-03T13:08:10.000Z", 
-        "activity": 0.0024, 
-        "basaliob": 0.027, 
-        "hightempinsulin": 0.7, 
-        "bolussnooze": 0, 
-        "iob": 0.027
-      }, 
-      "enacted": {
-        "bg": 110, 
-        "temp": "absolute", 
-        "snoozeBG": 102, 
-        "recieved": true, 
-        "reason": "COB: 0, Dev: -4, BGI: -1.38, ISF: 95, Target: 100; Eventual BG 102 > 100 but Min. Delta -2.00 < Exp. Delta -1.5; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
+        "reason": "COB: 0, Dev: -4, BGI: -0.9, ISF: 95, Target: 100; Eventual BG 102 > 100 but Min. Delta -1.65 < Exp. Delta -1; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
         "rate": 0.575, 
         "COB": 0, 
         "eventualBG": 102, 
-        "timestamp": "2017-04-03T13:04:32.000Z", 
+        "timestamp": "2017-04-03T13:16:40.000Z", 
         "duration": 30, 
-        "tick": -2, 
-        "IOB": 0.041
+        "tick": -1, 
+        "IOB": 0.015
       }
     }, 
     "uploader": {
       "battery": 100, 
-      "batteryVoltage": 4368
+      "batteryVoltage": 4377
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "58e249c3f679e5760814ff6d"
+    "_id": "58e24b48f679e5760814ff6f"
   }
 ]
