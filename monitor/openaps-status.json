@@ -7,93 +7,29 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-04-03T17:18:25.000Z", 
+      "timestamp": "2017-04-03T17:24:36.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 92.25, 
-    "clock": "2017-04-03T10:18:20-07:00"
+    "reservoir": 92.2, 
+    "clock": "2017-04-03T10:24:31-07:00"
   }, 
   "uploader": {
-    "battery": 69, 
-    "batteryVoltage": 3870
+    "battery": 68, 
+    "batteryVoltage": 3864
   }, 
   "openaps": {
     "suggested": {
-      "bg": 90, 
-      "temp": "absolute", 
-      "snoozeBG": 130, 
-      "timestamp": "2017-04-03T17:20:11.000Z", 
-      "predBGs": {
-        "aCOB": [
-          90, 
-          98, 
-          105, 
-          112, 
-          118, 
-          124, 
-          129, 
-          134, 
-          138, 
-          142, 
-          145, 
-          147, 
-          149, 
-          150, 
-          150, 
-          150, 
-          150, 
-          150, 
-          150, 
-          149, 
-          148, 
-          148, 
-          147, 
-          146, 
-          144, 
-          143, 
-          142, 
-          140, 
-          139, 
-          137, 
-          136, 
-          135, 
-          135, 
-          134
-        ], 
-        "IOB": [
-          90, 
-          88, 
-          86, 
-          84, 
-          82, 
-          80, 
-          77, 
-          74, 
-          71, 
-          68, 
-          64, 
-          60, 
-          56, 
-          52, 
-          47, 
-          42, 
-          39
-        ]
-      }, 
-      "reason": "COB: 17, Dev: -8, BGI: 0.36, ISF: 91, Target: 98; Eventual BG 1 < 98, bolus snooze: eventual BG range 1-130, temp 0.625 ~ req 0.625U/hr", 
-      "COB": 17, 
-      "eventualBG": 1, 
-      "tick": -2, 
-      "IOB": 0.891
+      "timestamp": "2017-04-03T17:26:22.000Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Mon Apr 03 2017 10:15:39 GMT-0700 (PDT) but your system time is Mon Apr 03 2017 10:26:22 GMT-0700 (PDT)"
     }, 
     "iob": {
       "netbasalinsulin": 0.05, 
-      "timestamp": "2017-04-03T17:18:20.000Z", 
-      "activity": -0.0008, 
-      "basaliob": -0.094, 
+      "timestamp": "2017-04-03T17:24:31.000Z", 
+      "activity": 0.0001, 
+      "basaliob": -0.078, 
       "hightempinsulin": 0.55, 
-      "bolussnooze": 0.95, 
+      "bolussnooze": 0.89, 
       "iob": 0.891
     }, 
     "enacted": {
@@ -115,42 +51,47 @@
     "scanDetails": [
       [
         "916.540", 
-        4, 
-        -83
+        1, 
+        -97
       ], 
       [
         "916.564", 
         5, 
-        -63
+        -72
       ], 
       [
         "916.588", 
         5, 
-        -65
+        -63
       ], 
       [
         "916.612", 
         5, 
-        -59
+        -69
       ], 
       [
         "916.636", 
         5, 
-        -58
+        -65
       ], 
       [
         "916.660", 
         5, 
-        -61
+        -72
       ], 
       [
         "916.684", 
-        5, 
-        -65
+        3, 
+        -95
+      ], 
+      [
+        "916.708", 
+        1, 
+        -98
       ]
     ], 
-    "setFreq": 916.636, 
-    "timestamp": "2017-04-03T17:18:04.000Z", 
+    "setFreq": 916.588, 
+    "timestamp": "2017-04-03T17:24:13.000Z", 
     "usedDefault": false
   }
 }
