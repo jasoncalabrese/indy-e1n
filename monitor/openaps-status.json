@@ -7,86 +7,202 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-04-09T21:49:58.000Z", 
+      "timestamp": "2017-04-09T21:53:32.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 45.025, 
-    "clock": "2017-04-09T14:49:33-07:00"
+    "reservoir": 45, 
+    "clock": "2017-04-09T14:53:28-07:00"
   }, 
   "uploader": {
-    "battery": 49, 
-    "batteryVoltage": 3675
+    "battery": 50, 
+    "batteryVoltage": 3677
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2017-04-09T21:51:30.000Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sun Apr 09 2017 14:40:22 GMT-0700 (PDT) but your system time is Sun Apr 09 2017 14:51:30 GMT-0700 (PDT)"
+      "bg": 78, 
+      "temp": "absolute", 
+      "snoozeBG": 37, 
+      "timestamp": "2017-04-09T21:55:26.000Z", 
+      "reason": "COB: 64, Dev: -20, BGI: -5.55, ISF: 94, Target: 100; Eventual BG 105 > 100 but Min. Delta -10.00 < Exp. Delta 3.6; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
+      "rate": 0.6, 
+      "COB": 64, 
+      "eventualBG": 105, 
+      "duration": 30, 
+      "tick": -10, 
+      "IOB": 1.303
     }, 
     "iob": {
-      "netbasalinsulin": 0.6, 
-      "timestamp": "2017-04-09T21:49:33.000Z", 
-      "activity": 0.0112, 
-      "basaliob": 0.309, 
-      "hightempinsulin": 0.65, 
-      "bolussnooze": 0.605, 
-      "iob": 1.35
+      "netbasalinsulin": 0.55, 
+      "timestamp": "2017-04-09T21:53:28.000Z", 
+      "activity": 0.0118, 
+      "basaliob": 0.294, 
+      "hightempinsulin": 0.6, 
+      "bolussnooze": 0.512, 
+      "iob": 1.303
     }, 
     "enacted": {
-      "bg": 103, 
+      "bg": 78, 
       "temp": "absolute", 
-      "snoozeBG": 90, 
+      "snoozeBG": 37, 
       "recieved": true, 
-      "rate": 0.625, 
-      "reason": "COB: 66, Dev: 3, BGI: -4.43, ISF: 92, Target: 99; Eventual BG 119 > 99 but Min. Delta -5.00 < Exp. Delta 2.7; setting current basal of 0.625 as temp", 
-      "COB": 66, 
-      "eventualBG": 119, 
-      "timestamp": "2017-04-09T21:41:24.000Z", 
+      "predBGs": {
+        "COB": [
+          78, 
+          76, 
+          74, 
+          72, 
+          69, 
+          66, 
+          62, 
+          58, 
+          54, 
+          51, 
+          47, 
+          45, 
+          42, 
+          40, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          40, 
+          42, 
+          44, 
+          47, 
+          50, 
+          53, 
+          56, 
+          60, 
+          63, 
+          67, 
+          70, 
+          74, 
+          77, 
+          81, 
+          84, 
+          88, 
+          91, 
+          95, 
+          98, 
+          102, 
+          105
+        ], 
+        "aCOB": [
+          78, 
+          82, 
+          86, 
+          90, 
+          92, 
+          95, 
+          97, 
+          98, 
+          99, 
+          101, 
+          103, 
+          106, 
+          108, 
+          111, 
+          115, 
+          119, 
+          123, 
+          127, 
+          132, 
+          137, 
+          142, 
+          148, 
+          153, 
+          159, 
+          166, 
+          172, 
+          179, 
+          186, 
+          194, 
+          201, 
+          208, 
+          215, 
+          223, 
+          230, 
+          237, 
+          243, 
+          250, 
+          257, 
+          263, 
+          270, 
+          276, 
+          283, 
+          289
+        ], 
+        "IOB": [
+          78, 
+          76, 
+          73, 
+          70, 
+          66, 
+          61, 
+          56, 
+          49, 
+          43, 
+          39, 
+          39, 
+          39, 
+          39
+        ]
+      }, 
+      "rate": 0.575, 
+      "reason": "COB: 64, Dev: -20, BGI: -5.55, ISF: 94, Target: 100; Eventual BG 105 > 100 but Min. Delta -10.00 < Exp. Delta 3.6; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
+      "COB": 64, 
+      "eventualBG": 105, 
+      "timestamp": "2017-04-09T21:55:47.000Z", 
       "duration": 30, 
-      "tick": -5, 
-      "IOB": 1.461
+      "tick": -10, 
+      "IOB": 1.303
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
         "916.540", 
-        5, 
-        -78
+        2, 
+        -96
       ], 
       [
         "916.564", 
         5, 
-        -69
+        -84
       ], 
       [
         "916.588", 
-        5, 
-        -65
+        4, 
+        -85
       ], 
       [
         "916.612", 
-        4, 
-        -76
+        5, 
+        -72
       ], 
       [
         "916.636", 
         5, 
-        -67
+        -76
       ], 
       [
         "916.660", 
-        5, 
-        -69
+        4, 
+        -83
       ], 
       [
         "916.684", 
-        5, 
-        -76
+        4, 
+        -87
       ]
     ], 
-    "setFreq": 916.588, 
-    "timestamp": "2017-04-09T21:49:16.000Z", 
+    "setFreq": 916.612, 
+    "timestamp": "2017-04-09T21:53:10.000Z", 
     "usedDefault": false
   }
 }
