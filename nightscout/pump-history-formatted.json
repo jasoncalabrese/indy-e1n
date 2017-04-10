@@ -3,6 +3,35 @@
     "raw_rate": {
       "_type": "TempBasal", 
       "temp": "absolute", 
+      "_description": "TempBasal 2017-04-09T23:35:40 head[2], body[1] op[0x33]", 
+      "timestamp": "2017-04-09T23:35:40-07:00", 
+      "_body": "00", 
+      "_head": "3382", 
+      "rate": 3.25, 
+      "_date": "6823174911"
+    }, 
+    "raw_duration": {
+      "_type": "TempBasalDuration", 
+      "_description": "TempBasalDuration 2017-04-09T23:35:40 head[2], body[0] op[0x16]", 
+      "timestamp": "2017-04-09T23:35:40-07:00", 
+      "_body": "", 
+      "_head": "1601", 
+      "duration (min)": 30, 
+      "_date": "6823174911"
+    }, 
+    "created_at": "2017-04-09T23:35:40-07:00", 
+    "enteredBy": "openaps://medtronic/723", 
+    "rate": 3.25, 
+    "eventType": "Temp Basal", 
+    "timestamp": "2017-04-09T23:35:40-07:00", 
+    "duration": "30", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
+    "absolute": "3.25"
+  }, 
+  {
+    "raw_rate": {
+      "_type": "TempBasal", 
+      "temp": "absolute", 
       "_description": "TempBasal 2017-04-09T23:08:59 head[2], body[1] op[0x33]", 
       "timestamp": "2017-04-09T23:08:59-07:00", 
       "_body": "00", 
@@ -1255,94 +1284,6 @@
     "rate": 0, 
     "eventType": "Temp Basal", 
     "timestamp": "2017-04-09T17:42:47-07:00", 
-    "duration": "30", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
-    "absolute": "0"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2017-04-09T17:31:56 head[2], body[0] op[0x0a]", 
-    "timestamp": "2017-04-09T17:31:56-07:00", 
-    "_body": "", 
-    "glucoseType": "Finger", 
-    "_head": "0a44", 
-    "enteredBy": "openaps://medtronic/723", 
-    "amount": 68, 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH", 
-    "eventType": "BG Check", 
-    "created_at": "2017-04-09T17:31:56-07:00", 
-    "_date": "781f316911", 
-    "glucose": 68
-  }, 
-  {
-    "raw_rate": {
-      "_type": "TempBasal", 
-      "temp": "absolute", 
-      "_description": "TempBasal 2017-04-09T17:27:48 head[2], body[1] op[0x33]", 
-      "timestamp": "2017-04-09T17:27:48-07:00", 
-      "_body": "00", 
-      "_head": "3300", 
-      "rate": 0, 
-      "_date": "701b114911"
-    }, 
-    "raw_duration": {
-      "_type": "TempBasalDuration", 
-      "_description": "TempBasalDuration 2017-04-09T17:27:48 head[2], body[0] op[0x16]", 
-      "timestamp": "2017-04-09T17:27:48-07:00", 
-      "_body": "", 
-      "_head": "1601", 
-      "duration (min)": 30, 
-      "_date": "701b114911"
-    }, 
-    "created_at": "2017-04-09T17:27:48-07:00", 
-    "enteredBy": "openaps://medtronic/723", 
-    "rate": 0, 
-    "eventType": "Temp Basal", 
-    "timestamp": "2017-04-09T17:27:48-07:00", 
-    "duration": "30", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
-    "absolute": "0"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2017-04-09T17:17:04 head[2], body[0] op[0x0a]", 
-    "timestamp": "2017-04-09T17:17:04-07:00", 
-    "_body": "", 
-    "glucoseType": "Finger", 
-    "_head": "0a45", 
-    "enteredBy": "openaps://medtronic/723", 
-    "amount": 69, 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH", 
-    "eventType": "BG Check", 
-    "created_at": "2017-04-09T17:17:04-07:00", 
-    "_date": "4411316911", 
-    "glucose": 69
-  }, 
-  {
-    "raw_rate": {
-      "_type": "TempBasal", 
-      "temp": "absolute", 
-      "_description": "TempBasal 2017-04-09T17:13:39 head[2], body[1] op[0x33]", 
-      "timestamp": "2017-04-09T17:13:39-07:00", 
-      "_body": "00", 
-      "_head": "3300", 
-      "rate": 0, 
-      "_date": "670d114911"
-    }, 
-    "raw_duration": {
-      "_type": "TempBasalDuration", 
-      "_description": "TempBasalDuration 2017-04-09T17:13:39 head[2], body[0] op[0x16]", 
-      "timestamp": "2017-04-09T17:13:39-07:00", 
-      "_body": "", 
-      "_head": "1601", 
-      "duration (min)": 30, 
-      "_date": "670d114911"
-    }, 
-    "created_at": "2017-04-09T17:13:39-07:00", 
-    "enteredBy": "openaps://medtronic/723", 
-    "rate": 0, 
-    "eventType": "Temp Basal", 
-    "timestamp": "2017-04-09T17:13:39-07:00", 
     "duration": "30", 
     "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
     "absolute": "0"
