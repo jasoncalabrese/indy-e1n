@@ -7,92 +7,91 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-04-10T12:17:15.000Z", 
+      "timestamp": "2017-04-10T12:23:26.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 27.75, 
-    "clock": "2017-04-10T05:17:11-07:00"
+    "clock": "2017-04-10T05:23:23-07:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4374
+    "batteryVoltage": 4366
   }, 
   "openaps": {
     "suggested": {
-      "bg": 80, 
+      "bg": 76, 
       "temp": "absolute", 
-      "snoozeBG": 83, 
-      "timestamp": "2017-04-10T12:19:19.000Z", 
+      "snoozeBG": 84, 
+      "timestamp": "2017-04-10T12:25:11.000Z", 
+      "reason": "COB: 0, Dev: -27, BGI: -0.14, ISF: 93, Target: 99; Eventual BG 84 < 99, setting -0.05U/hr", 
+      "rate": 0, 
+      "COB": 0, 
+      "eventualBG": 84, 
+      "duration": 30, 
+      "tick": -4, 
+      "IOB": -0.372
+    }, 
+    "iob": {
+      "netbasalinsulin": -0.1, 
+      "timestamp": "2017-04-10T12:23:23.000Z", 
+      "activity": 0.0003, 
+      "basaliob": -0.372, 
+      "hightempinsulin": 0.4, 
+      "bolussnooze": 0, 
+      "iob": -0.372
+    }, 
+    "enacted": {
+      "bg": 76, 
+      "temp": "absolute", 
+      "snoozeBG": 84, 
+      "recieved": true, 
       "predBGs": {
         "IOB": [
-          80, 
-          75, 
-          71, 
+          76, 
+          72, 
           68, 
-          66, 
-          64, 
-          62, 
-          62, 
+          65, 
+          63, 
+          61, 
+          61, 
+          60, 
+          61, 
           62, 
           63, 
-          64, 
-          66, 
+          65, 
           68, 
           71, 
           73, 
           76, 
           79, 
-          82, 
+          81, 
           84, 
-          87, 
+          86, 
           89, 
-          92, 
+          91, 
+          93, 
           94, 
           96, 
-          98, 
+          97, 
           99, 
+          100, 
           101, 
           102, 
+          102, 
           103, 
-          104, 
-          105, 
-          106, 
-          106, 
-          107, 
-          107, 
-          107, 
-          108
+          103, 
+          104
         ]
       }, 
-      "reason": "COB: 0, Dev: -27, BGI: -0.47, ISF: 93, Target: 99; Eventual BG 83 < 99, setting -0.075U/hr, but 26m left and 0 ~ req 0U/hr: no action required", 
-      "COB": 0, 
-      "eventualBG": 83, 
-      "tick": -5, 
-      "IOB": -0.32
-    }, 
-    "iob": {
-      "netbasalinsulin": -0.05, 
-      "timestamp": "2017-04-10T12:17:11.000Z", 
-      "activity": 0.001, 
-      "basaliob": -0.32, 
-      "hightempinsulin": 0.4, 
-      "bolussnooze": 0, 
-      "iob": -0.32
-    }, 
-    "enacted": {
-      "bg": 85, 
-      "temp": "absolute", 
-      "snoozeBG": 84, 
-      "recieved": true, 
       "rate": 0, 
-      "reason": "COB: 0, Dev: -25, BGI: -0.79, ISF: 93, Target: 99; Eventual BG 84 < 99, setting -0.05U/hr", 
+      "reason": "COB: 0, Dev: -27, BGI: -0.14, ISF: 93, Target: 99; Eventual BG 84 < 99, setting -0.05U/hr", 
       "COB": 0, 
       "eventualBG": 84, 
-      "timestamp": "2017-04-10T12:13:44.000Z", 
+      "timestamp": "2017-04-10T12:25:35.000Z", 
       "duration": 30, 
-      "tick": -5, 
-      "IOB": -0.263
+      "tick": -4, 
+      "IOB": -0.372
     }
   }, 
   "mmtune": {
@@ -100,41 +99,41 @@
       [
         "916.564", 
         5, 
-        -92
+        -86
       ], 
       [
         "916.588", 
         5, 
-        -89
+        -84
       ], 
       [
         "916.612", 
         5, 
-        -87
+        -83
       ], 
       [
         "916.636", 
         5, 
-        -86
+        -83
       ], 
       [
         "916.660", 
         5, 
-        -86
+        -83
       ], 
       [
         "916.684", 
         5, 
-        -88
+        -84
       ], 
       [
         "916.708", 
         5, 
-        -94
+        -92
       ]
     ], 
     "setFreq": 916.66, 
-    "timestamp": "2017-04-10T12:16:53.000Z", 
+    "timestamp": "2017-04-10T12:23:05.000Z", 
     "usedDefault": false
   }
 }
