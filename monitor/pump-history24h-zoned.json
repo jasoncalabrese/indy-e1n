@@ -1,6 +1,25 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2017-04-11T12:33:42 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-04-11T12:33:42-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "6a210c4b11"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-04-11T12:33:42 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-04-11T12:33:42-07:00", 
+    "_body": "00", 
+    "_head": "332a", 
+    "rate": 1.05, 
+    "_date": "6a210c4b11"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2017-04-11T12:03:47 head[2], body[0] op[0x16]", 
     "timestamp": "2017-04-11T12:03:47-07:00", 
     "_body": "", 
@@ -3570,71 +3589,5 @@
     "_head": "3327", 
     "rate": 0.975, 
     "_date": "7222094a11"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2017-04-10T09:23:06 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-04-10T09:23:06-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "4617094a11"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-04-10T09:23:06 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-04-10T09:23:06-07:00", 
-    "_body": "00", 
-    "_head": "3365", 
-    "rate": 2.525, 
-    "_date": "4617094a11"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2017-04-10T09:19:18 head[2], body[0] op[0x0a]", 
-    "timestamp": "2017-04-10T09:19:18-07:00", 
-    "_body": "", 
-    "_head": "0a5f", 
-    "amount": 95, 
-    "_date": "5213290a11"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2017-04-10T09:16:50 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-04-10T09:16:50-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "7210094a11"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-04-10T09:16:50 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-04-10T09:16:50-07:00", 
-    "_body": "00", 
-    "_head": "333e", 
-    "rate": 1.55, 
-    "_date": "7210094a11"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2017-04-10T09:09:46 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-04-10T09:09:46-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "6e09094a11"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-04-10T09:09:46 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-04-10T09:09:46-07:00", 
-    "_body": "00", 
-    "_head": "332a", 
-    "rate": 1.05, 
-    "_date": "6e09094a11"
   }
 ]
