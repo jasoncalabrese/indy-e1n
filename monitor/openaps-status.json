@@ -7,12 +7,12 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-04-13T17:49:31.000Z", 
+      "timestamp": "2017-04-13T17:55:32.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 59.9, 
-    "clock": "2017-04-13T10:49:29-07:00"
+    "reservoir": 59.85, 
+    "clock": "2017-04-13T10:55:30-07:00"
   }, 
   "uploader": {
     "battery": 67, 
@@ -20,31 +20,150 @@
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2017-04-13T17:51:20.000Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Thu Apr 13 2017 10:39:34 GMT-0700 (PDT) but your system time is Thu Apr 13 2017 10:51:20 GMT-0700 (PDT)"
+      "bg": 99, 
+      "temp": "absolute", 
+      "snoozeBG": 108, 
+      "timestamp": "2017-04-13T17:57:15.000Z", 
+      "reason": "COB: 64, Dev: 75, BGI: -13.82, ISF: 107, Target: 105; Eventual BG 373 >= 105, temp 0.525<0.575U/hr", 
+      "rate": 0.575, 
+      "COB": 64, 
+      "eventualBG": 373, 
+      "duration": 30, 
+      "tick": -1, 
+      "IOB": 1.199
     }, 
     "iob": {
-      "netbasalinsulin": 1.8, 
-      "timestamp": "2017-04-13T17:49:29.000Z", 
-      "activity": 0.0257, 
-      "basaliob": 0.01, 
-      "hightempinsulin": 2.1, 
-      "bolussnooze": 0.257, 
-      "iob": 1.355
+      "netbasalinsulin": 1.75, 
+      "timestamp": "2017-04-13T17:55:30.000Z", 
+      "activity": 0.0259, 
+      "basaliob": -0.021, 
+      "hightempinsulin": 2.05, 
+      "bolussnooze": 0.147, 
+      "iob": 1.199
     }, 
     "enacted": {
-      "bg": 106, 
+      "bg": 99, 
       "temp": "absolute", 
-      "snoozeBG": 97, 
+      "snoozeBG": 108, 
       "recieved": true, 
-      "rate": 0.525, 
-      "reason": "COB: 66, Dev: 48, BGI: -13.6, ISF: 107, Target: 105; Eventual BG 179 > 105 but Min. Delta -5.60 < Exp. Delta -4.9; setting current basal of 0.525 as temp", 
-      "COB": 66, 
-      "eventualBG": 179, 
-      "timestamp": "2017-04-13T17:29:11.000Z", 
+      "predBGs": {
+        "COB": [
+          99, 
+          98, 
+          96, 
+          95, 
+          96, 
+          97, 
+          99, 
+          101, 
+          104, 
+          108, 
+          113, 
+          118, 
+          124, 
+          130, 
+          136, 
+          143, 
+          150, 
+          158, 
+          166, 
+          175, 
+          183, 
+          192, 
+          202, 
+          212, 
+          222, 
+          231, 
+          241, 
+          250, 
+          259, 
+          268, 
+          277, 
+          285, 
+          294, 
+          303, 
+          311, 
+          319, 
+          327, 
+          335, 
+          343, 
+          351, 
+          358, 
+          366, 
+          373
+        ], 
+        "aCOB": [
+          99, 
+          95, 
+          91, 
+          88, 
+          86, 
+          84, 
+          84, 
+          84, 
+          85, 
+          87, 
+          90, 
+          92, 
+          96, 
+          100, 
+          105, 
+          110, 
+          115, 
+          121, 
+          127, 
+          134, 
+          141, 
+          149, 
+          157, 
+          165, 
+          173, 
+          181, 
+          189, 
+          197, 
+          205, 
+          213, 
+          220, 
+          228, 
+          235, 
+          243, 
+          250, 
+          257, 
+          264, 
+          272, 
+          279, 
+          285, 
+          292, 
+          299, 
+          306
+        ], 
+        "IOB": [
+          99, 
+          97, 
+          93, 
+          90, 
+          86, 
+          83, 
+          79, 
+          75, 
+          71, 
+          67, 
+          62, 
+          57, 
+          52, 
+          47, 
+          42, 
+          39
+        ]
+      }, 
+      "rate": 0.55, 
+      "reason": "COB: 64, Dev: 75, BGI: -13.82, ISF: 107, Target: 105; Eventual BG 373 >= 105, temp 0.525<0.575U/hr", 
+      "COB": 64, 
+      "eventualBG": 373, 
+      "timestamp": "2017-04-13T17:57:36.000Z", 
       "duration": 30, 
-      "tick": -3, 
-      "IOB": 1.928
+      "tick": -1, 
+      "IOB": 1.199
     }
   }, 
   "mmtune": {
@@ -57,36 +176,36 @@
       [
         "916.564", 
         5, 
-        -59
+        -58
       ], 
       [
         "916.588", 
         5, 
-        -60
+        -57
       ], 
       [
         "916.612", 
         5, 
-        -61
+        -57
       ], 
       [
         "916.636", 
-        4, 
-        -70
+        5, 
+        -57
       ], 
       [
         "916.660", 
         5, 
-        -64
+        -58
       ], 
       [
         "916.684", 
         5, 
-        -70
+        -68
       ]
     ], 
-    "setFreq": 916.564, 
-    "timestamp": "2017-04-13T17:49:10.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2017-04-13T17:55:11.000Z", 
     "usedDefault": false
   }
 }
