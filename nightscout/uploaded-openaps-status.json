@@ -1,12 +1,12 @@
 [
   {
-    "created_at": "2017-04-13T11:20:21.268Z", 
+    "created_at": "2017-04-13T11:24:44.698Z", 
     "mmtune": {
       "scanDetails": [
         [
           "916.564", 
           5, 
-          -89
+          -90
         ], 
         [
           "916.588", 
@@ -30,18 +30,13 @@
         ], 
         [
           "916.684", 
-          5, 
-          -88
-        ], 
-        [
-          "916.708", 
           4, 
-          -97
+          -91
         ]
       ], 
       "setFreq": 916.612, 
       "usedDefault": false, 
-      "timestamp": "2017-04-13T11:18:10.000Z"
+      "timestamp": "2017-04-13T11:21:54.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,26 +45,71 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-04-13T11:18:31.000Z", 
+        "timestamp": "2017-04-13T11:22:15.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 69.1, 
-      "clock": "2017-04-13T04:18:29-07:00"
+      "reservoir": 69.075, 
+      "clock": "2017-04-13T04:22:12-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "timestamp": "2017-04-13T11:20:02.000Z", 
-        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Thu Apr 13 2017 04:09:35 GMT-0700 (PDT) but your system time is Thu Apr 13 2017 04:20:02 GMT-0700 (PDT)"
+        "bg": 80, 
+        "temp": "absolute", 
+        "snoozeBG": 123, 
+        "timestamp": "2017-04-13T11:24:28.000Z", 
+        "predBGs": {
+          "IOB": [
+            80, 
+            80, 
+            80, 
+            80, 
+            81, 
+            82, 
+            83, 
+            85, 
+            87, 
+            90, 
+            93, 
+            96, 
+            99, 
+            102, 
+            105, 
+            108, 
+            111, 
+            113, 
+            115, 
+            117, 
+            119, 
+            120, 
+            122, 
+            123, 
+            124, 
+            125, 
+            125, 
+            126, 
+            126, 
+            127, 
+            127, 
+            127, 
+            127, 
+            128
+          ]
+        }, 
+        "reason": "COB: 0, Dev: -14, BGI: 1.71, ISF: 98, Target: 101; Eventual BG 123 > 101 but Min. Delta -0.63 < Exp. Delta 0.5; setting current basal of 0.575 as temp, but 29m left and 0.525 ~ req 0.575U/hr: no action required", 
+        "COB": 0, 
+        "eventualBG": 123, 
+        "tick": "+3", 
+        "IOB": -0.6
       }, 
       "iob": {
         "netbasalinsulin": -0.8, 
-        "timestamp": "2017-04-13T11:18:29.000Z", 
-        "activity": -0.0031, 
-        "basaliob": -0.563, 
+        "timestamp": "2017-04-13T11:22:12.000Z", 
+        "activity": -0.0035, 
+        "basaliob": -0.6, 
         "hightempinsulin": 0.6, 
         "bolussnooze": 0, 
-        "iob": -0.563
+        "iob": -0.6
       }, 
       "enacted": {
         "bg": 77, 
@@ -88,9 +128,9 @@
     }, 
     "uploader": {
       "battery": 100, 
-      "batteryVoltage": 4371
+      "batteryVoltage": 4373
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "58ef5ef56dae037614aa4873"
+    "_id": "58ef5ffc6dae037614aa4875"
   }
 ]
