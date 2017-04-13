@@ -1,47 +1,47 @@
 [
   {
-    "created_at": "2017-04-13T16:32:35.838Z", 
+    "created_at": "2017-04-13T16:38:43.728Z", 
     "mmtune": {
       "scanDetails": [
         [
+          "916.516", 
+          5, 
+          -76
+        ], 
+        [
           "916.540", 
           5, 
-          -73
+          -70
         ], 
         [
           "916.564", 
           5, 
-          -68
+          -67
         ], 
         [
           "916.588", 
           5, 
-          -67
+          -59
         ], 
         [
           "916.612", 
-          4, 
-          -77
+          5, 
+          -55
         ], 
         [
           "916.636", 
           5, 
-          -67
+          -58
         ], 
         [
           "916.660", 
-          5, 
-          -71
-        ], 
-        [
-          "916.684", 
           4, 
-          -82
+          -69
         ]
       ], 
-      "setFreq": 916.636, 
+      "setFreq": 916.612, 
       "usedDefault": false, 
-      "timestamp": "2017-04-13T16:29:56.000Z"
+      "timestamp": "2017-04-13T16:36:15.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,74 +50,78 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-04-13T16:30:10.000Z", 
+        "timestamp": "2017-04-13T16:36:36.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
       "reservoir": 62.4, 
-      "clock": "2017-04-13T09:30:06-07:00"
+      "clock": "2017-04-13T09:36:35-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 221, 
+        "bg": 206, 
         "temp": "absolute", 
-        "snoozeBG": 75, 
-        "timestamp": "2017-04-13T16:32:08.000Z", 
-        "rate": 0, 
-        "reason": "COB: 0, Dev: 10, BGI: -10.63, ISF: 102, Target: 103; Eventual BG 75 < 103, Snooze BG 75, setting -0.525U/hr", 
+        "snoozeBG": 53, 
+        "timestamp": "2017-04-13T16:38:27.000Z", 
+        "predBGs": {
+          "IOB": [
+            206, 
+            191, 
+            177, 
+            164, 
+            151, 
+            138, 
+            126, 
+            115, 
+            105, 
+            96, 
+            88, 
+            81, 
+            74, 
+            69, 
+            64, 
+            61, 
+            58, 
+            55, 
+            53, 
+            52, 
+            51, 
+            51, 
+            50, 
+            50, 
+            51, 
+            51, 
+            51, 
+            52, 
+            52, 
+            53, 
+            54, 
+            54, 
+            55, 
+            55, 
+            56
+          ]
+        }, 
+        "reason": "COB: 0, Dev: -12, BGI: -10.6, ISF: 104, Target: 104; Eventual BG 53 < 104, setting -1.4U/hr, but 26m left and 0 ~ req 0U/hr: no action required", 
         "COB": 0, 
-        "eventualBG": 75, 
-        "duration": 30, 
-        "tick": -9, 
-        "IOB": 1.53
+        "eventualBG": 53, 
+        "tick": -15, 
+        "IOB": 1.348
       }, 
       "iob": {
-        "netbasalinsulin": 2.3, 
-        "timestamp": "2017-04-13T16:30:06.000Z", 
-        "activity": 0.0208, 
-        "basaliob": 1.425, 
-        "hightempinsulin": 2.5, 
+        "netbasalinsulin": 2.2, 
+        "timestamp": "2017-04-13T16:36:35.000Z", 
+        "activity": 0.0203, 
+        "basaliob": 1.262, 
+        "hightempinsulin": 2.45, 
         "bolussnooze": 0, 
-        "iob": 1.53
+        "iob": 1.348
       }, 
       "enacted": {
         "bg": 221, 
         "temp": "absolute", 
         "snoozeBG": 75, 
         "recieved": true, 
-        "predBGs": {
-          "IOB": [
-            221, 
-            212, 
-            203, 
-            194, 
-            185, 
-            175, 
-            166, 
-            157, 
-            148, 
-            139, 
-            131, 
-            123, 
-            115, 
-            107, 
-            101, 
-            95, 
-            90, 
-            85, 
-            81, 
-            77, 
-            74, 
-            72, 
-            70, 
-            68, 
-            67, 
-            65, 
-            65, 
-            64, 
-            63
-          ]
-        }, 
         "reason": "COB: 0, Dev: 10, BGI: -10.63, ISF: 102, Target: 103; Eventual BG 75 < 103, Snooze BG 75, setting -0.525U/hr", 
         "rate": 0, 
         "COB": 0, 
@@ -129,10 +133,10 @@
       }
     }, 
     "uploader": {
-      "battery": 72, 
-      "batteryVoltage": 3900
+      "battery": 71, 
+      "batteryVoltage": 3888
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "58efa8236dae037614aa48ba"
+    "_id": "58efa9936dae037614aa48bb"
   }
 ]
