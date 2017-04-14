@@ -1,32 +1,32 @@
 [
   {
-    "created_at": "2017-04-14T10:32:28.170Z", 
+    "created_at": "2017-04-14T10:38:21.916Z", 
     "mmtune": {
       "scanDetails": [
         [
           "916.588", 
-          5, 
+          4, 
           -96
         ], 
         [
           "916.612", 
           5, 
-          -95
+          -94
         ], 
         [
           "916.636", 
           5, 
-          -95
+          -94
         ], 
         [
           "916.660", 
           5, 
-          -96
+          -95
         ]
       ], 
       "setFreq": 916.636, 
       "usedDefault": false, 
-      "timestamp": "2017-04-14T10:28:41.000Z"
+      "timestamp": "2017-04-14T10:36:02.000Z"
     }, 
     "pump": {
       "battery": {
@@ -35,69 +35,71 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-04-14T10:29:05.000Z", 
+        "timestamp": "2017-04-14T10:36:23.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 126.2, 
-      "clock": "2017-04-14T03:29:03-07:00"
+      "reservoir": 126.15, 
+      "clock": "2017-04-14T03:36:21-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 90, 
+        "bg": 91, 
         "temp": "absolute", 
-        "snoozeBG": 116, 
-        "timestamp": "2017-04-14T10:31:59.000Z", 
-        "rate": 0.525, 
-        "reason": "COB: 0, Dev: -9, BGI: 3.2, ISF: 111, Target: 107; Eventual BG 116 > 107 but Min. Delta 1.66 < Exp. Delta 2.7; setting current basal of 0.525 as temp", 
+        "snoozeBG": 118, 
+        "timestamp": "2017-04-14T10:38:06.000Z", 
+        "predBGs": {
+          "IOB": [
+            91, 
+            92, 
+            93, 
+            95, 
+            96, 
+            98, 
+            100, 
+            101, 
+            103, 
+            105, 
+            107, 
+            108, 
+            110, 
+            112, 
+            113, 
+            115, 
+            116, 
+            117, 
+            118, 
+            119, 
+            120, 
+            120, 
+            121, 
+            122, 
+            122, 
+            122, 
+            122, 
+            123
+          ]
+        }, 
+        "reason": "COB: 0, Dev: -9, BGI: 3.08, ISF: 108, Target: 105; Eventual BG 118 > 105 but Min. Delta 1.00 < Exp. Delta 2.4, temp 0.525 ~ req 0.525U/hr", 
         "COB": 0, 
-        "eventualBG": 116, 
-        "duration": 30, 
-        "tick": "+4", 
-        "IOB": -0.367
+        "eventualBG": 118, 
+        "tick": "+1", 
+        "IOB": -0.376
       }, 
       "iob": {
-        "netbasalinsulin": -0.9, 
-        "timestamp": "2017-04-14T10:29:03.000Z", 
-        "activity": -0.0058, 
-        "basaliob": -0.367, 
+        "netbasalinsulin": -0.95, 
+        "timestamp": "2017-04-14T10:36:21.000Z", 
+        "activity": -0.0057, 
+        "basaliob": -0.376, 
         "hightempinsulin": 0, 
         "bolussnooze": 0, 
-        "iob": -0.367
+        "iob": -0.376
       }, 
       "enacted": {
         "bg": 90, 
         "temp": "absolute", 
         "snoozeBG": 116, 
         "recieved": true, 
-        "predBGs": {
-          "IOB": [
-            90, 
-            92, 
-            94, 
-            96, 
-            98, 
-            100, 
-            102, 
-            104, 
-            106, 
-            108, 
-            110, 
-            112, 
-            114, 
-            115, 
-            117, 
-            118, 
-            119, 
-            120, 
-            121, 
-            122, 
-            123, 
-            124, 
-            124, 
-            125
-          ]
-        }, 
         "reason": "COB: 0, Dev: -9, BGI: 3.2, ISF: 111, Target: 107; Eventual BG 116 > 107 but Min. Delta 1.66 < Exp. Delta 2.7; setting current basal of 0.525 as temp", 
         "rate": 0.525, 
         "COB": 0, 
@@ -110,9 +112,9 @@
     }, 
     "uploader": {
       "battery": 100, 
-      "batteryVoltage": 4371
+      "batteryVoltage": 4376
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "58f0a53c6dae037614aa49c3"
+    "_id": "58f0a69d6dae037614aa49c6"
   }
 ]
