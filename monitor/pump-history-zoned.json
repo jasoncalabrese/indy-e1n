@@ -1,5 +1,54 @@
 [
   {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "_description": "BolusWizard 2017-04-15T17:33:32 head[2], body[15] op[0x5b]", 
+    "timestamp": "2017-04-15T17:33:32-07:00", 
+    "_body": "325000a05f6400007c000000007cb4", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c0b0e07c0321bc028a1d0", 
+        "data": [
+          {
+            "amount": 0.35, 
+            "age": 7
+          }, 
+          {
+            "amount": 1.25, 
+            "age": 27
+          }, 
+          {
+            "amount": 1.0, 
+            "age": 417
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "bg_target_high": 180, 
+    "sensitivity": 95, 
+    "carb_input": 50, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 3.1, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "bg_target_low": 100, 
+    "_head": "5b00", 
+    "bolus_estimate": 3.1, 
+    "_date": "6021110f11"
+  }, 
+  {
+    "_type": "PumpResume", 
+    "_description": "PumpResume 2017-04-15T17:32:46 head[2], body[0] op[0x1f]", 
+    "timestamp": "2017-04-15T17:32:46-07:00", 
+    "_body": "", 
+    "_head": "1f20", 
+    "_date": "6e20110f11"
+  }, 
+  {
     "_type": "Bolus", 
     "_description": "Bolus 2017-04-15T17:32:14 head[8], body[0] op[0x01]", 
     "timestamp": "2017-04-15T17:32:14-07:00", 
