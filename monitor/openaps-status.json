@@ -7,100 +7,97 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-04-19T21:21:37.000Z", 
+      "timestamp": "2017-04-19T21:28:11.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 60.675, 
-    "clock": "2017-04-19T14:21:37-07:00"
+    "clock": "2017-04-19T14:28:10-07:00"
   }, 
   "uploader": {
-    "battery": 58, 
-    "batteryVoltage": 3757
+    "battery": 57, 
+    "batteryVoltage": 3746
   }, 
   "openaps": {
     "suggested": {
-      "bg": 140, 
+      "bg": 127, 
       "temp": "absolute", 
       "snoozeBG": 3, 
-      "timestamp": "2017-04-19T21:23:07.000Z", 
+      "timestamp": "2017-04-19T21:29:41.000Z", 
       "predBGs": {
         "aCOB": [
-          140, 
-          138, 
+          127, 
+          124, 
+          122, 
+          121, 
+          120, 
+          120, 
+          120, 
+          120, 
+          121, 
+          122, 
+          124, 
+          127, 
+          130, 
+          133, 
           137, 
-          135, 
-          135, 
-          135, 
-          135, 
-          136, 
-          137, 
-          139, 
-          140, 
-          142, 
-          145, 
+          141, 
+          144, 
           148, 
-          151, 
-          154, 
-          158, 
-          161, 
-          165, 
+          152, 
+          156, 
+          160, 
+          164, 
           168, 
           172, 
           176, 
-          179, 
-          183, 
-          187, 
-          190, 
-          194, 
+          180, 
+          184, 
+          188, 
+          191, 
+          195, 
           198, 
           201, 
-          205, 
-          208, 
+          204, 
+          206, 
+          209, 
           211, 
-          214, 
-          216, 
-          219, 
-          221, 
-          222, 
-          224, 
-          225, 
-          226, 
-          226, 
-          226, 
-          227
+          212, 
+          213, 
+          215, 
+          215, 
+          216
         ], 
         "IOB": [
-          140, 
-          128, 
-          117, 
-          107, 
-          97, 
-          88, 
-          80, 
+          127, 
+          115, 
+          103, 
+          92, 
+          82, 
           73, 
-          66, 
-          59, 
-          53, 
-          48, 
+          65, 
+          57, 
+          50, 
           43, 
+          39, 
+          39, 
           39
         ]
       }, 
-      "reason": "COB: 26, Dev: -35, BGI: -6.41, ISF: 98, Target: 101; Eventual BG 3 < 101, setting -3.425U/hr, but 21m left and 0 ~ req 0U/hr: no action required", 
+      "reason": "COB: 26, Dev: -40, BGI: -6.17, ISF: 98, Target: 101; Eventual BG 3 < 101, setting -3.425U/hr, but 30m left and 0 ~ req 0U/hr: no action required", 
       "COB": 26, 
       "eventualBG": 3, 
-      "tick": -12, 
-      "IOB": 1.041
+      "tick": -13, 
+      "IOB": 0.858
     }, 
     "iob": {
-      "netbasalinsulin": 1.35, 
-      "timestamp": "2017-04-19T21:21:37.000Z", 
-      "activity": 0.0131, 
-      "basaliob": 0.981, 
-      "hightempinsulin": 1.45, 
+      "netbasalinsulin": 1.2, 
+      "timestamp": "2017-04-19T21:28:10.000Z", 
+      "activity": 0.0126, 
+      "basaliob": 0.827, 
+      "hightempinsulin": 1.4, 
       "bolussnooze": 0, 
-      "iob": 1.041
+      "iob": 0.858
     }, 
     "enacted": {
       "bg": 166, 
@@ -121,37 +118,37 @@
     "scanDetails": [
       [
         "916.564", 
-        4, 
-        -72
+        5, 
+        -54
       ], 
       [
         "916.588", 
         5, 
-        -61
+        -52
       ], 
       [
         "916.612", 
         5, 
-        -60
+        -51
       ], 
       [
         "916.636", 
         5, 
-        -61
+        -51
       ], 
       [
         "916.660", 
         5, 
-        -61
+        -52
       ], 
       [
         "916.684", 
         5, 
-        -63
+        -54
       ]
     ], 
-    "setFreq": 916.612, 
-    "timestamp": "2017-04-19T21:21:16.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2017-04-19T21:27:49.000Z", 
     "usedDefault": false
   }
 }
