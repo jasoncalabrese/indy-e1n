@@ -1,5 +1,74 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2017-04-19T11:47:34 head[8], body[0] op[0x01]", 
+    "timestamp": "2017-04-19T11:47:34-07:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c081865c03423d0", 
+        "data": [
+          {
+            "amount": 0.6, 
+            "age": 101
+          }, 
+          {
+            "amount": 1.3, 
+            "age": 291
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 2.1, 
+    "duration": 0, 
+    "amount": 2.1, 
+    "unabsorbed": 0.25, 
+    "_head": "0100540054000a00", 
+    "type": "normal", 
+    "_date": "622f2b1311"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 177, 
+    "_description": "BolusWizard 2017-04-19T11:47:34 head[2], body[15] op[0x5b]", 
+    "timestamp": "2017-04-19T11:47:34-07:00", 
+    "_body": "285000be5f6400005400000a0054b4", 
+    "carb_input": 40, 
+    "bg_target_high": 180, 
+    "sensitivity": 95, 
+    "carb_ratio": 19.0, 
+    "food_estimate": 2.1, 
+    "unabsorbed_insulin_total": 0.25, 
+    "correction_estimate": 0.0, 
+    "bg_target_low": 100, 
+    "_head": "5bb1", 
+    "bolus_estimate": 2.1, 
+    "_date": "622f0b1311"
+  }, 
+  {
+    "_type": "BGReceived", 
+    "_description": "BGReceived 2017-04-19T11:46:52 head[2], body[3] op[0x3f]", 
+    "timestamp": "2017-04-19T11:46:52-07:00", 
+    "_body": "c23647", 
+    "_head": "3f16", 
+    "amount": 177, 
+    "link": "c23647", 
+    "_date": "742e2b7311"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2017-04-19T11:46:52 head[2], body[0] op[0x0a]", 
+    "timestamp": "2017-04-19T11:46:52-07:00", 
+    "_body": "", 
+    "_head": "0ab1", 
+    "amount": 177, 
+    "_date": "742e2b7311"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2017-04-19T11:41:46 head[2], body[0] op[0x16]", 
     "timestamp": "2017-04-19T11:41:46-07:00", 
