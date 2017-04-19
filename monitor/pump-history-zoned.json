@@ -1,5 +1,74 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2017-04-18T17:21:34 head[8], body[0] op[0x01]", 
+    "timestamp": "2017-04-18T17:21:34-07:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c085027d01eb3d0", 
+        "data": [
+          {
+            "amount": 2.0, 
+            "age": 295
+          }, 
+          {
+            "amount": 0.75, 
+            "age": 435
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 2.5, 
+    "duration": 0, 
+    "amount": 2.5, 
+    "unabsorbed": 0.0, 
+    "_head": "0100640064000000", 
+    "type": "normal", 
+    "_date": "6215311211"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 68, 
+    "_description": "BolusWizard 2017-04-18T17:21:34 head[2], body[15] op[0x5b]", 
+    "timestamp": "2017-04-18T17:21:34-07:00", 
+    "_body": "3c5000a05f64f20096f800000088b4", 
+    "carb_input": 60, 
+    "bg_target_high": 180, 
+    "sensitivity": 95, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 3.75, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 50.85, 
+    "bg_target_low": 100, 
+    "_head": "5b44", 
+    "bolus_estimate": 3.4, 
+    "_date": "6215111211"
+  }, 
+  {
+    "_type": "BGReceived", 
+    "_description": "BGReceived 2017-04-18T17:20:34 head[2], body[3] op[0x3f]", 
+    "timestamp": "2017-04-18T17:20:34-07:00", 
+    "_body": "c23647", 
+    "_head": "3f08", 
+    "amount": 68, 
+    "link": "c23647", 
+    "_date": "6214917211"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2017-04-18T17:20:34 head[2], body[0] op[0x0a]", 
+    "timestamp": "2017-04-18T17:20:34-07:00", 
+    "_body": "", 
+    "_head": "0a44", 
+    "amount": 68, 
+    "_date": "6214317211"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2017-04-18T17:15:46 head[2], body[0] op[0x16]", 
     "timestamp": "2017-04-18T17:15:46-07:00", 
