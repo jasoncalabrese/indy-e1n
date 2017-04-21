@@ -1,6 +1,23 @@
 [
   {
     "trend_arrow": "FLAT", 
+    "display_time": "2017-04-21T08:09:16-07:00", 
+    "noise": 1, 
+    "system_time": "2017-04-21T15:08:11-07:00", 
+    "direction": "Flat", 
+    "sgv": 104, 
+    "dateString": "2017-04-21T08:09:16-07:00", 
+    "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 113152, 
+    "rssi": 190, 
+    "date": 1492787356000, 
+    "filtered": 108608, 
+    "_id": "58fa213965110bbfc1962e5b", 
+    "type": "sgv", 
+    "glucose": 104
+  }, 
+  {
+    "trend_arrow": "FLAT", 
     "display_time": "2017-04-21T08:04:16-07:00", 
     "noise": 1, 
     "system_time": "2017-04-21T15:03:11-07:00", 
@@ -109,11 +126,11 @@
     "direction": "Flat", 
     "sgv": 83, 
     "dateString": "2017-04-21T07:39:15-07:00", 
-    "device": "openaps://indy-ex2/cgm", 
-    "unfiltered": 96720, 
-    "rssi": 190, 
     "date": 1492785555000, 
+    "unfiltered": 96720, 
     "filtered": 97808, 
+    "device": "openaps://indy-ex2/cgm", 
+    "rssi": 190, 
     "_id": "58fa19fd65110bbfc1962e51", 
     "type": "sgv", 
     "glucose": 83
@@ -2293,39 +2310,5 @@
     "_id": "58f9cdf365110bbfc1962dab", 
     "type": "sgv", 
     "glucose": 182
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2017-04-21T02:09:16-07:00", 
-    "noise": 1, 
-    "system_time": "2017-04-21T09:08:12-07:00", 
-    "direction": "Flat", 
-    "sgv": 178, 
-    "dateString": "2017-04-21T02:09:16-07:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 171104, 
-    "rssi": 182, 
-    "date": 1492765756000, 
-    "filtered": 169536, 
-    "_id": "58f9ccb065110bbfc1962da6", 
-    "type": "sgv", 
-    "glucose": 178
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2017-04-21T02:09:16-07:00", 
-    "noise": 1, 
-    "system_time": "2017-04-21T10:09:12-07:00", 
-    "direction": "Flat", 
-    "sgv": 178, 
-    "dateString": "2017-04-21T02:09:16-07:00", 
-    "device": "openaps://indy-ex2/cgm", 
-    "unfiltered": 171104, 
-    "rssi": 193, 
-    "date": 1492765756000, 
-    "filtered": 169536, 
-    "_id": "58f9cc7b65110bbfc1962da5", 
-    "type": "sgv", 
-    "glucose": 178
   }
 ]
