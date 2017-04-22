@@ -1,11 +1,47 @@
 [
   {
-    "created_at": "2017-04-22T21:12:16.710Z", 
+    "created_at": "2017-04-22T21:19:23.634Z", 
     "mmtune": {
-      "scanDetails": [], 
-      "setFreq": 916.63, 
-      "usedDefault": true, 
-      "timestamp": "2017-04-22T21:09:37.000Z"
+      "scanDetails": [
+        [
+          "916.564", 
+          5, 
+          -79
+        ], 
+        [
+          "916.588", 
+          5, 
+          -78
+        ], 
+        [
+          "916.612", 
+          5, 
+          -79
+        ], 
+        [
+          "916.636", 
+          4, 
+          -83
+        ], 
+        [
+          "916.660", 
+          5, 
+          -81
+        ], 
+        [
+          "916.684", 
+          5, 
+          -82
+        ], 
+        [
+          "916.708", 
+          5, 
+          -92
+        ]
+      ], 
+      "setFreq": 916.588, 
+      "usedDefault": false, 
+      "timestamp": "2017-04-22T21:15:48.000Z"
     }, 
     "pump": {
       "battery": {
@@ -14,162 +50,73 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-04-22T21:09:49.000Z", 
+        "timestamp": "2017-04-22T21:16:09.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 30, 
-      "clock": "2017-04-22T14:09:51-07:00"
+      "reservoir": 29.75, 
+      "clock": "2017-04-22T14:16:01-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 160, 
+        "bg": 170, 
         "temp": "absolute", 
-        "snoozeBG": 192, 
-        "timestamp": "2017-04-22T21:11:48.000Z", 
-        "rate": 2.25, 
-        "reason": "COB: 53, Dev: 134, BGI: -11.35, ISF: 95, Target: 80; Eventual BG 158 >= 80, 23m@2.650 = 1.016 > req 0.82+20%. Setting temp basal of 2.25U/hr", 
-        "COB": 53, 
-        "eventualBG": 158, 
+        "snoozeBG": 123, 
+        "timestamp": "2017-04-22T21:18:33.000Z", 
+        "rate": 0.6, 
+        "reason": "COB: undefined, Dev: 103, BGI: -13.2, ISF: 95, Target: 100; Eventual BG -34 < 100, but Min. Delta 4.00 > Exp. Delta -5.8; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
+        "eventualBG": -34, 
         "duration": 30, 
-        "tick": "+11", 
-        "IOB": 3.201
+        "tick": "+4", 
+        "IOB": 3.232
       }, 
       "iob": {
-        "netbasalinsulin": 0.05, 
-        "timestamp": "2017-04-22T21:09:51.000Z", 
-        "activity": 0.0239, 
-        "basaliob": 0.098, 
-        "hightempinsulin": 0.7, 
-        "bolussnooze": 1.417, 
-        "iob": 3.201
+        "netbasalinsulin": 0.3, 
+        "timestamp": "2017-04-22T21:16:01.000Z", 
+        "activity": 0.0278, 
+        "basaliob": 0.32, 
+        "hightempinsulin": 0.9, 
+        "bolussnooze": 1.104, 
+        "iob": 3.232
       }, 
       "enacted": {
-        "bg": 160, 
+        "bg": 170, 
         "temp": "absolute", 
-        "snoozeBG": 192, 
+        "snoozeBG": 123, 
         "recieved": true, 
         "predBGs": {
-          "COB": [
-            160, 
-            170, 
-            179, 
-            185, 
-            189, 
-            191, 
-            192, 
-            192, 
-            191, 
-            190, 
-            189, 
-            187, 
-            184, 
-            180, 
-            177, 
-            173, 
-            169, 
-            165, 
-            161, 
-            158, 
-            155, 
-            153, 
-            151, 
-            150, 
-            150, 
-            151, 
-            152, 
-            153, 
-            154, 
-            155, 
-            156, 
-            157, 
-            158, 
-            158, 
-            159, 
-            159, 
-            159, 
-            159, 
-            158
-          ], 
-          "aCOB": [
-            160, 
-            159, 
-            155, 
-            151, 
-            144, 
-            136, 
-            127, 
-            118, 
-            109, 
-            100, 
-            91, 
-            82, 
-            72, 
-            63, 
-            54, 
-            44, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            42, 
-            47, 
-            52, 
-            57, 
-            62
-          ], 
           "IOB": [
-            160, 
-            169, 
-            175, 
-            177, 
-            176, 
+            170, 
+            173, 
             172, 
-            165, 
-            156, 
+            169, 
+            163, 
+            155, 
             146, 
-            133, 
-            119, 
-            103, 
-            85, 
-            67, 
-            49, 
+            136, 
+            124, 
+            111, 
+            96, 
+            80, 
+            63, 
+            46, 
             39
           ]
         }, 
-        "reason": "COB: 53, Dev: 134, BGI: -11.35, ISF: 95, Target: 80; Eventual BG 158 >= 80, 23m@2.650 = 1.016 > req 0.82+20%. Setting temp basal of 2.25U/hr", 
-        "rate": 2.25, 
-        "COB": 53, 
-        "eventualBG": 158, 
-        "timestamp": "2017-04-22T21:12:00.000Z", 
+        "reason": "COB: undefined, Dev: 103, BGI: -13.2, ISF: 95, Target: 100; Eventual BG -34 < 100, but Min. Delta 4.00 > Exp. Delta -5.8; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
+        "rate": 0.575, 
+        "eventualBG": -34, 
+        "timestamp": "2017-04-22T21:18:58.000Z", 
         "duration": 30, 
-        "tick": "+11", 
-        "IOB": 3.201
+        "tick": "+4", 
+        "IOB": 3.232
       }
     }, 
     "uploader": {
-      "battery": 61, 
-      "batteryVoltage": 3794
+      "battery": 63, 
+      "batteryVoltage": 3806
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "58fbc730cabdba1e62dd0f4f"
+    "_id": "58fbc8dbcabdba1e62dd0f50"
   }
 ]
