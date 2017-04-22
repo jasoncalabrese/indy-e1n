@@ -1,28 +1,28 @@
 {
-  "bg": 171, 
+  "bg": 153, 
   "temp": "absolute", 
-  "snoozeBG": 94, 
+  "snoozeBG": 10, 
   "predBGs": {
     "IOB": [
-      171, 
-      171, 
-      168, 
-      162, 
-      155, 
-      147, 
-      138, 
-      128, 
-      117, 
-      105, 
-      92, 
-      78, 
-      63, 
-      49, 
+      153, 
+      143, 
+      132, 
+      121, 
+      109, 
+      97, 
+      84, 
+      71, 
+      58, 
+      44, 
+      39, 
+      39, 
       39
     ]
   }, 
-  "reason": "COB: undefined, Dev: 95, BGI: -14.82, ISF: 95, Target: 80; Eventual BG -30 < 80, but Min. Delta 1.00 > Exp. Delta -8.7; setting current basal of 0.6 as temp, but 28m left and 0.575 ~ req 0.6U/hr: no action required", 
-  "eventualBG": -30, 
-  "tick": "+1", 
-  "IOB": 3.118
+  "rate": 0, 
+  "reason": "COB: undefined, Dev: 46, BGI: -16.67, ISF: 95, Target: 80; Eventual BG -71 < 80, setting -2.35U/hr", 
+  "eventualBG": -71, 
+  "duration": 30, 
+  "tick": -9, 
+  "IOB": 2.847
 }
